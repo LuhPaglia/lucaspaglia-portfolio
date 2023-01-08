@@ -1,0 +1,23 @@
+  <header>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#experience">Developer Work Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label class="switch">
+      <input type="checkbox" (change)="toggleDarkTheme()" checked >
+      <span class="slider round"></span>
+    </label>
+  </header>
+  <section class="toolbar" role="banner">
+    <app-about id="about"></app-about>
+    <app-experience id="experience"></app-experience>
+    <app-education id="education"></app-education>
+    <app-skills id="skills"></app-skills>
+    <app-contact id="contact"></app-contact>
+  </section>
+  
+  <router-outlet></router-outlet>
+

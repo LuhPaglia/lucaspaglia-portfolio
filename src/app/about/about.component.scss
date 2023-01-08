@@ -1,0 +1,41 @@
+section{
+    height: 90vh;
+    display: flex;
+    padding: 2%;
+    h2{
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+    h3{
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 100;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 5vh;
+    }
+    article{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        figure img{
+            width: 50vh;
+            height: 50vh;
+            border-radius: 50%;
+        }
+        aside{
+            display: flex;
+            column-gap: 5vh;
+            a{
+                font-size: 50px;
+            }
+        }
+    }
+
+}
